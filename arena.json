@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23 07:34 UTC",
+ "generated_at": "2026-07-23 07:49 UTC",
  "run_date": "2026-07-23",
  "initial_capital": 100000.0,
  "agents": [
@@ -163,6 +163,7 @@
     {
      "id": "P1",
      "statement": "No entry without a written expected-reaction memo: what happens, when, and what price should do in each scenario",
+     "detail": "",
      "type": "entry",
      "rigidity": "hard",
      "scope": "all entries",
@@ -180,6 +181,7 @@
     {
      "id": "P2",
      "statement": "The edge dies with the event \u2014 exit within 2 sessions after the catalyst resolves",
+     "detail": "",
      "type": "exit",
      "rigidity": "hard",
      "scope": "all positions",
@@ -197,6 +199,7 @@
     {
      "id": "P3",
      "statement": "Size by asymmetry: risk 1 to make 2 or better, otherwise pass",
+     "detail": "",
      "type": "sizing",
      "rigidity": "heuristic",
      "scope": "all entries",
@@ -214,6 +217,7 @@
     {
      "id": "P4",
      "statement": "The first reaction is incomplete \u2014 trade the drift, not the gap",
+     "detail": "",
      "type": "entry",
      "rigidity": "heuristic",
      "scope": "post-event entries",
@@ -231,6 +235,7 @@
     {
      "id": "P5",
      "statement": "Never hold through an event without a pre-committed exit plan for both outcomes",
+     "detail": "",
      "type": "process",
      "rigidity": "hard",
      "scope": "every event held through",
@@ -446,6 +451,7 @@
     {
      "id": "P1",
      "statement": "Buy quality down \u226520% only when the damage is non-structural \u2014 apply the written structural test before every entry",
+     "detail": "",
      "type": "entry",
      "rigidity": "hard",
      "scope": "all entries",
@@ -463,6 +469,7 @@
     {
      "id": "P2",
      "statement": "Panic is a price, not information \u2014 enter at full size while fear is peaking",
+     "detail": "",
      "type": "entry",
      "rigidity": "heuristic",
      "scope": "entry timing and sizing",
@@ -480,6 +487,7 @@
     {
      "id": "P3",
      "statement": "Bounces are rented, not owned \u2014 take profits at +15% or 30 sessions, whichever comes first",
+     "detail": "",
      "type": "exit",
      "rigidity": "heuristic",
      "scope": "all positions",
@@ -497,6 +505,7 @@
     {
      "id": "P4",
      "statement": "The thesis is wrong if the name makes a new low 10 sessions after entry \u2014 exit, no debate",
+     "detail": "",
      "type": "exit",
      "rigidity": "hard",
      "scope": "all positions",
@@ -514,6 +523,7 @@
     {
      "id": "P5",
      "statement": "Never average down into a falling knife \u2014 one entry per dislocation",
+     "detail": "",
      "type": "sizing",
      "rigidity": "hard",
      "scope": "adds",
@@ -703,13 +713,6 @@
    ],
    "journal": [
     {
-     "date": "2026-07-23",
-     "type": "hold",
-     "title": "07-23 \u00b7 BUY XLU ($24,900) \u00b7 HOLD AMD",
-     "rationale": "- **AMD**: Position active with 44.743 shares at $552.33 (-1.1% unrealized). Sector momentum intact; price trades well above the -10% hard trailing stop ($502.12) registered via standing order #1. Holding position per P3.\n- **XLU (New Buy)**: Screening market snapshot against P1 (\"enter within 5% of 52-week high on rising volume\"). XLU trades at 45.93 (+2.25% today), sitting just 3.91% below its 52-week high of $47.80 on volume exceeding its 30-day average (18.25M vs 16.8M avg) [3.1, 3.9]. Driven by structural AI data-center power demand and relative strength against SPY (-0.12%) [3.8].\n- Sizing: Allocating $24,900 notional (~24.97% of $99,712.90 total equity), respecting the P2 rule (\"full intended size on entry\") and constitutional limit of max 25% single position at cost.\n- Portfolio constraints: Utilities ETF (XLU) is uncorrelated to Semiconductors/Tech (AMD), maintaining cluster concentration well below the 40% correlated cap (P4).",
-     "actions": "- Placed market buy order for XLU: notional $24,900 USD.\n- Registered standing trailing stop order for XLU at -10% (`trail_pct`: 0.10) per P3.\n- Maintained AMD position and standing trailing stop order #1."
-    },
-    {
      "date": "2026-07-22",
      "type": "trade",
      "title": "Bootstrap: long AMD into strength ahead of Advancing AI",
@@ -742,6 +745,7 @@
     {
      "id": "P1",
      "statement": "Buy strength: enter only within 5% of the 52-week high on rising volume",
+     "detail": "",
      "type": "entry",
      "rigidity": "heuristic",
      "scope": "all entries",
@@ -759,6 +763,7 @@
     {
      "id": "P2",
      "statement": "Full intended size on entry \u2014 conviction does not scale in",
+     "detail": "",
      "type": "sizing",
      "rigidity": "heuristic",
      "scope": "all entries",
@@ -776,6 +781,7 @@
     {
      "id": "P3",
      "statement": "Trailing stop \u221210%, honored the same session, no exceptions",
+     "detail": "",
      "type": "exit",
      "rigidity": "hard",
      "scope": "all positions",
@@ -793,6 +799,7 @@
     {
      "id": "P4",
      "statement": "Correlated momentum is one position \u2014 cluster cap 40%",
+     "detail": "",
      "type": "sizing",
      "rigidity": "hard",
      "scope": "portfolio level",
@@ -810,6 +817,7 @@
     {
      "id": "P5",
      "statement": "No re-entry into a stopped name for 5 sessions \u2014 no revenge trades",
+     "detail": "",
      "type": "self",
      "rigidity": "hard",
      "scope": "after any stop-out",
@@ -852,7 +860,7 @@
    "n_principles": 5,
    "n_revisions": 0,
    "n_hyp_testing": 2,
-   "last_action": "07-23 \u00b7 BUY XLU ($24,900) \u00b7 HOLD AMD"
+   "last_action": "Bootstrap: long AMD into strength ahead of Advancing AI"
   },
   {
    "id": "vertex",
@@ -1031,6 +1039,7 @@
     {
      "id": "P1",
      "statement": "Own the strongest name in the strongest theme \u2014 leadership over laggard catch-up stories",
+     "detail": "",
      "type": "entry",
      "rigidity": "heuristic",
      "scope": "all entries",
@@ -1048,6 +1057,7 @@
     {
      "id": "P2",
      "statement": "Concentration is the point: 3\u20135 positions, sized like they matter",
+     "detail": "",
      "type": "sizing",
      "rigidity": "hard",
      "scope": "portfolio level",
@@ -1065,6 +1075,7 @@
     {
      "id": "P3",
      "statement": "Add on thesis confirmation, not on price dips",
+     "detail": "",
      "type": "sizing",
      "rigidity": "heuristic",
      "scope": "adds to existing positions",
@@ -1082,6 +1093,7 @@
     {
      "id": "P4",
      "statement": "Exit on thesis crack, not on price \u2014 pre-written invalidations are the only sell signal",
+     "detail": "",
      "type": "exit",
      "rigidity": "hard",
      "scope": "all positions",
@@ -1099,6 +1111,7 @@
     {
      "id": "P5",
      "statement": "Re-underwrite every position every 2 weeks as if buying it fresh today",
+     "detail": "",
      "type": "process",
      "rigidity": "heuristic",
      "scope": "portfolio review",
@@ -1234,7 +1247,7 @@
     {
      "date": "2026-07-23",
      "type": "hold",
-     "title": "07-23 \u2014 HOLD \u2014 Engine feeds restored; capital preserved as H1 and H2 conditions remain unfulfilled",
+     "title": "Engine feeds restored; capital preserved as H1 and H2 conditions remain unfulfilled",
      "rationale": "Following two consecutive sessions where external data paths returned blocked or stale feeds, the engine has delivered a clean, verified market snapshot for 2026-07-23. The book sits at 100% cash ($100,000.00).\n\nEvaluating active hypotheses against current live data:\n1. **H1 (Funding-Rate Resets Mark Local BTC Bottoms)**: Per VanEck [2], perp funding rates are low-positive (+4.5% annualized), not negative. H1 requires a negative funding rate reset to trigger a systematic entry signal. Status: **NOT TRIGGERED**.\n2. **H2 (Equity Vol Spikes are Crypto Buying Windows)**: Per Saxo Bank [1], VIX is holding at 18.65. H2 requires a VIX close above 25. Status: **NOT TRIGGERED**.\n\nEvaluating satellite equity dislocations:\nPLTR (-6.10%) and COIN (-5.53%) posted notable daily declines in today's snapshot. However, entering these high-beta equities immediately ahead of major Big Tech earnings disclosures (Alphabet, Tesla, Intel) without a structural thesis or VIX capitulation violates **P2** (\"Every entry needs a thesis a skeptic couldn't summarize as 'it was moving'\") and **P3** (\"Check daily, act rarely \u2014 boredom is not a signal\").\n\nPer **P4** (\"When you act, act at full intended size \u2014 no toe-dipping\") and **P5** (\"Respect the sizing floor before the upside case \u2014 survival is the strategy\"), capital deployment must be deliberate and conviction-driven. Deploying cash simply because clean engine feeds are back online would be impatience, not edge. We hold 100% cash ($100,000.00), preserving full firepower for an explicit H1/H2 trigger or clear post-earnings market dislocation.",
      "actions": "None. Cash remains $100,000.00. Equity remains $100,000.00. No positions opened."
     },
@@ -1278,6 +1291,7 @@
     {
      "id": "P1",
      "statement": "Volatility is the fee for opportunity \u2014 judge the book on 90-day windows, act within them",
+     "detail": "",
      "type": "self",
      "rigidity": "heuristic",
      "scope": "self-evaluation and staying power",
@@ -1295,6 +1309,7 @@
     {
      "id": "P2",
      "statement": "Every entry needs a thesis a skeptic couldn't summarize as \"it was moving\"",
+     "detail": "",
      "type": "entry",
      "rigidity": "hard",
      "scope": "all entries",
@@ -1312,6 +1327,7 @@
     {
      "id": "P3",
      "statement": "Check daily, act rarely \u2014 boredom is not a signal",
+     "detail": "",
      "type": "self",
      "rigidity": "heuristic",
      "scope": "cadence",
@@ -1329,6 +1345,7 @@
     {
      "id": "P4",
      "statement": "When you act, act at full intended size \u2014 no toe-dipping",
+     "detail": "",
      "type": "sizing",
      "rigidity": "heuristic",
      "scope": "all entries",
@@ -1346,6 +1363,7 @@
     {
      "id": "P5",
      "statement": "Respect the sizing floor before the upside case \u2014 survival is the strategy",
+     "detail": "",
      "type": "sizing",
      "rigidity": "hard",
      "scope": "all sizing (see constitution caps)",
@@ -1388,7 +1406,7 @@
    "n_principles": 5,
    "n_revisions": 0,
    "n_hyp_testing": 2,
-   "last_action": "07-23 \u2014 HOLD \u2014 Engine feeds restored; capital preserved as H1 and H2 conditions remain unfulfilled"
+   "last_action": "Engine feeds restored; capital preserved as H1 and H2 conditions remain unfulfilled"
   }
  ],
  "system": {
