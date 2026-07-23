@@ -434,6 +434,13 @@
       ],
       "journal": [
         {
+          "date": "2026-07-23",
+          "type": "hold",
+          "title": "Displace AMZN for GOOGL post-earnings print (+82% Cloud growth); confirm AI Capex supercycle (H2 evidence)",
+          "rationale": "Re-underwriting AMZN vs GOOGL per Principle P1 (\"Leadership over laggard catch-up\") and Principle P5 (\"Re-underwrite every position every 2 weeks\"). AMZN was entered yesterday as a placeholder pending GOOGL's Q2 earnings print, with an explicit thesis invalidation trigger: displacement by a pure-play cloud growth leader post-earnings.\n\nGOOGL's print delivered unequivocal proof of leadership: Google Cloud revenue accelerated to +82% YoY ($24.8B), with operating margins expanding to 35.6% and backlog reaching $514B [2.6, 2.7]. This vastly outperforms AWS's ~19% YoY growth rate. Market concern over Alphabet's $44.9B Q2 CapEx ($195B\u2013$205B FY26 guidance) and temporary negative FCF caused a -1.46% pull-back to $342.09, offering an exceptional entry price for the dominant cloud growth compounder [1.4, 2.4].\n\nPer P4 (exit on thesis crack / invalidation), AMZN is exited in full (`qty: \"all\"`). The proceeds (~$20,035) plus available cash are reallocated into GOOGL ($34,500 notional, ~34.56% of equity at cost, strictly adhering to P2's 35% single-position cap).\n\nNVDA ($34,974 value, 35.03% equity) and TSM ($24,797 value, 24.84% equity) remain core high-conviction holdings. The massive CapEx raises from both Alphabet ($195B\u2013$205B) [1.4] and TSMC ($60B\u2013$64B) [3.1] strongly confirm the hardware supply chain demand for NVDA GPUs and TSMC N3/N2 leading-edge wafer capacity.",
+          "actions": "- Exited full position in AMZN (`qty: \"all\"`) per P4 invalidation condition.\n- Opened new long position in GOOGL ($34,500 notional) per P1 leadership thesis.\n- Logged evidence for Hypothesis H2 (`evidence_for: 1`)."
+        },
+        {
           "date": "2026-07-22",
           "type": "trade",
           "title": "Bootstrap: NVDA, TSM, AMZN \u2014 leadership in compute, foundry, and (with a caveat) cloud",
@@ -576,7 +583,7 @@
       "n_principles": 5,
       "n_revisions": 0,
       "n_hyp_testing": 2,
-      "last_action": "Bootstrap: NVDA, TSM, AMZN \u2014 leadership in compute, foundry, and (with a caveat) cloud"
+      "last_action": "Displace AMZN for GOOGL post-earnings print (+82% Cloud growth); confirm AI Capex supercycle (H2 evidence)"
     },
     {
       "id": "maverick",
