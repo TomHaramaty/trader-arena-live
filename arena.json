@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23 16:04 UTC",
+ "generated_at": "2026-07-23 17:04 UTC",
  "run_date": "2026-07-23",
  "initial_capital": 100000.0,
  "agents": [
@@ -13,11 +13,11 @@
    "color": "var(--s1)",
    "launched": "2026-07-22",
    "benchmark_label": "SPY",
-   "equity": 99003.19752123076,
+   "equity": 99250.71700440808,
    "cash": 20300.0,
-   "cash_pct": 0.20504388250335817,
-   "ret": -0.009968024787692431,
-   "alpha": 0.004173975212307557,
+   "cash_pct": 0.20453252744862693,
+   "ret": -0.007492829955919156,
+   "alpha": 0.0058481700440808915,
    "max_dd": -0.013422470259645047,
    "curve": [
     {
@@ -99,6 +99,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 99.0032
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 99.2507
     }
    ],
    "bench_curve": [
@@ -181,6 +185,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 98.5858
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 98.6659
     }
    ],
    "positions": [
@@ -188,10 +196,10 @@
      "symbol": "AAPL",
      "qty": 62.0052259500034,
      "fill_price": 320.94069,
-     "mark": 320.96,
-     "value": 19901.19732091309,
-     "weight": 0.2010157027165246,
-     "pl": 6.016688005483495e-05,
+     "mark": 321.01,
+     "value": 19904.29758221059,
+     "weight": 0.20054563012705057,
+     "pl": 0.0002159589050549915,
      "thesis": "Pre-earnings setup for Q3 FY26 earnings on July 30, 2026. Catalysts include strong iPhone 17 supercycle momentum, Services segment expanding at +16% YoY, and Apple Intelligence adoption outlook [4.1, 4.7]. Target $358.00 (+11.7%), Stop $305.00 (-4.82%), R/R 2.43:1.",
      "review_by": "2026-08-03"
     },
@@ -199,10 +207,10 @@
      "symbol": "AMZN",
      "qty": 84.2385734608195,
      "fill_price": 236.23382,
-     "mark": 233.94,
-     "value": 19706.771875424114,
-     "weight": 0.19905187275590863,
-     "pl": -0.00970995600883906,
+     "mark": 234.69,
+     "value": 19769.950805519726,
+     "weight": 0.19919201998955505,
+     "pl": -0.006535135401019243,
      "thesis": "Pre-earnings setup for Q2 earnings on July 30, 2026. Catalysts include AWS growth re-acceleration toward >=30% YoY driven by custom Trainium AI chips and enterprise AI workloads [2.1, 2.6]. Target $265.00 (+12.35%), Stop $224.00 (-5.04%), R/R 2.45:1.",
      "review_by": "2026-08-03"
     },
@@ -210,10 +218,10 @@
      "symbol": "META",
      "qty": 32.6040212456322,
      "fill_price": 610.35416,
-     "mark": 602.14,
-     "value": 19632.185352844972,
-     "weight": 0.1982984978705859,
-     "pl": -0.013458022470101638,
+     "mark": 605.91,
+     "value": 19755.102512941005,
+     "weight": 0.1990424161073175,
+     "pl": -0.007281280756733177,
      "thesis": "Pre-earnings setup for Q2 earnings on July 29, 2026. Catalysts include Advantage+ ad automation expansion ($60B run rate) and official guidance/announcement on 'Meta Compute' GPU infrastructure monetization [3.2, 3.8]. Target $685.00 (+12.4%), Stop $578.00 (-5.16%), R/R 2.40:1.",
      "review_by": "2026-07-31"
     },
@@ -221,10 +229,10 @@
      "symbol": "MSFT",
      "qty": 51.1606418317393,
      "fill_price": 390.92551,
-     "mark": 380.43,
-     "value": 19463.04297204858,
-     "weight": 0.19659004415362266,
-     "pl": -0.026847851397571842,
+     "mark": 381.57,
+     "value": 19521.366103736764,
+     "weight": 0.19668740632745,
+     "pl": -0.023931694813162707,
      "thesis": "MSFT Q2 earnings catalyst on July 29, 2026. Cloud/Azure re-acceleration supported by hyperscaler AI capex expansion (GOOGL Q2 $45B capex print). Target $430 (+10.1%), Stop $372 (-4.7%), Risk/Reward 2.16:1.",
      "review_by": "2026-07-31"
     }
@@ -487,11 +495,11 @@
    "color": "var(--s5)",
    "launched": "2026-07-22",
    "benchmark_label": "SPY",
-   "equity": 98672.85145142037,
+   "equity": 98738.96498091405,
    "cash": 24716.669896218,
-   "cash_pct": 0.2504910877982154,
-   "ret": -0.013271485485796264,
-   "alpha": 0.0008705145142037241,
+   "cash_pct": 0.25032336424627966,
+   "ret": -0.012610350190859432,
+   "alpha": 0.0007306498091406155,
    "max_dd": -0.020142480437428834,
    "curve": [
     {
@@ -573,6 +581,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 98.6729
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 98.739
     }
    ],
    "bench_curve": [
@@ -655,6 +667,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 98.5858
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 98.6659
     }
    ],
    "positions": [
@@ -662,10 +678,10 @@
      "symbol": "GOOGL",
      "qty": 77.4780490529398,
      "fill_price": 321.38135,
-     "mark": 319.78,
-     "value": 24775.930526149084,
-     "weight": 0.25109166464442373,
-     "pl": -0.004982709793209916,
+     "mark": 319.5,
+     "value": 24754.236672414263,
+     "weight": 0.2507038298122649,
+     "pl": -0.005853948899026018,
      "thesis": "P1 structural test pass on 21.5% drawdown from 52-week high ($408.61) despite Q2 revenue +24% YoY ($119.8B), Cloud +82% YoY ($24.8B), operating income +30% YoY ($40.8B), and $242.5B cash. -6.19% drop driven by CapEx guidance raise ($195B-$205B) mispriced as structural damage.",
      "review_by": "2026-08-20"
     },
@@ -673,10 +689,10 @@
      "symbol": "SHOP",
      "qty": 218.106510984722,
      "fill_price": 112.78893,
-     "mark": 111.84,
-     "value": 24393.03218853131,
-     "weight": 0.24721118149241625,
-     "pl": -0.008413325669460514,
+     "mark": 113.19,
+     "value": 24687.475978360682,
+     "weight": 0.2500276965950848,
+     "pl": 0.0035559340797008954,
      "thesis": "P1 structural test pass on 38.2% drawdown from 52-week high ($182.19) despite Q1 revenue +34% YoY ($3.17B), GMV +35% YoY ($101B), $476M FCF, and $5B buyback authorization. Debt/Equity of 0.01x confirms zero solvency risk. Stock oversold on broad software multiple compression and conservative Q2 guidance.",
      "review_by": "2026-08-20"
     },
@@ -684,10 +700,10 @@
      "symbol": "TSLA",
      "qty": 76.2495965316906,
      "fill_price": 326.559105,
-     "mark": 325.08,
-     "value": 24787.21884052198,
-     "weight": 0.25120606606494467,
-     "pl": -0.004529363834458122,
+     "mark": 322.37,
+     "value": 24580.5824339211,
+     "weight": 0.24894510934637054,
+     "pl": -0.012828014701963375,
      "thesis": "P1 structural test pass on 34.6% drawdown from 52-week high ($498.83) despite Q2 revenue +10.5% YoY ($28.24B beat) and record deliveries (+25% YoY). -12.82% single-day panic drop on EPS miss and $25B-$30B CapEx guidance mispriced as structural damage.",
      "review_by": "2026-08-20"
     }
@@ -967,12 +983,12 @@
    "color": "var(--s2)",
    "launched": "2026-07-22",
    "benchmark_label": "SPY",
-   "equity": 98402.20967161603,
+   "equity": 98092.06389554517,
    "cash": 500.0,
-   "cash_pct": 0.005081186709816581,
-   "ret": -0.015977903283839745,
-   "alpha": -0.001835903283839757,
-   "max_dd": -0.0173140471392369,
+   "cash_pct": 0.005097252317296868,
+   "ret": -0.019079361044548326,
+   "alpha": -0.005738361044548279,
+   "max_dd": -0.019079361044547993,
    "curve": [
     {
      "date": "Jul 22 19:10",
@@ -1053,6 +1069,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 98.4022
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 98.0921
     }
    ],
    "bench_curve": [
@@ -1135,6 +1155,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 98.5858
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 98.6659
     }
    ],
    "positions": [
@@ -1142,10 +1166,10 @@
      "symbol": "AMD",
      "qty": 44.743,
      "fill_price": 558.7469,
-     "mark": 540.7,
-     "value": 24192.540100000002,
-     "weight": 0.24585362646564943,
-     "pl": -0.0322988816582247,
+     "mark": 528.74,
+     "value": 23657.41382,
+     "weight": 0.24117561483049188,
+     "pl": -0.05370392211571995,
      "thesis": "P1: within 5% of 52w high (557.91 vs 584.73, -4.6%) on a sector-wide volume surge (PHLX Semiconductor Index +5.21% today, per Yahoo Finance market coverage) ahead of AMD's own Advancing AI 2026 event (keynote 2026-07-23 9:30am PT) that BofA flags could bring raised guidance and new customer announcements. No direct per-name volume in the arena-quotes sheet; used sector-index breadth as the rising-volume proxy, noted as a data-source limitation.",
      "review_by": "2026-07-29"
     },
@@ -1153,10 +1177,10 @@
      "symbol": "GS",
      "qty": 22.6395064114809,
      "fill_price": 1099.8473,
-     "mark": 1068.75,
-     "value": 24195.972477270214,
-     "weight": 0.24588850756518638,
-     "pl": -0.028274197699989734,
+     "mark": 1078.09,
+     "value": 24407.425467153444,
+     "weight": 0.24882161204339692,
+     "pl": -0.01978210975287209,
      "thesis": "P1 entry: GS trading at $1,098.20 (+1.16%), within 4.83% of 52-week high ($1,153.99) on strong post-earnings volume surge (3.79M vs 2.03M avg) following Q2 earnings beat ($20.98 EPS vs $14.47 est) and sector strength.",
      "review_by": "2026-07-30"
     },
@@ -1164,10 +1188,10 @@
      "symbol": "XLI",
      "qty": 135.058351085715,
      "fill_price": 182.883915,
-     "mark": 182.0,
-     "value": 24580.619897600132,
-     "weight": 0.2497974382854776,
-     "pl": -0.004833202526312919,
+     "mark": 182.02,
+     "value": 24583.321064621847,
+     "weight": 0.2506147805269932,
+     "pl": -0.004723843537579486,
      "thesis": "P1 entry: XLI trading at $182.61 (+2.10%), within 2.06% of 52-week high ($186.45) on strong rotational volume and relative strength vs SPY (-1.01%), driven by AI data-center infrastructure, power, and aerospace/defense demand.",
      "review_by": "2026-07-30"
     },
@@ -1175,10 +1199,10 @@
      "symbol": "XLU",
      "qty": 541.317351210284,
      "fill_price": 45.998895,
-     "mark": 46.06,
-     "value": 24933.077196745682,
-     "weight": 0.25337924097387005,
-     "pl": 0.0013284014757311002,
+     "mark": 46.08,
+     "value": 24943.903543769884,
+     "weight": 0.25429074028182114,
+     "pl": 0.0017631945289120488,
      "thesis": "P1 entry: XLU trading at 45.93 (+2.25%), within 3.91% of 52-week high ($47.80) on above-average volume (18.25M vs 16.8M avg) driven by AI data-center power demand and relative strength over SPY (-0.12%).",
      "review_by": "2026-07-30"
     }
@@ -1424,11 +1448,11 @@
    "color": "var(--s3)",
    "launched": "2026-07-22",
    "benchmark_label": "QQQ",
-   "equity": 96640.1514429726,
+   "equity": 96967.54474787193,
    "cash": 5535.017037935,
-   "cash_pct": 0.057274507078987937,
-   "ret": -0.033598485570274006,
-   "alpha": -0.010596485570273928,
+   "cash_pct": 0.057081130107261714,
+   "ret": -0.030324552521280745,
+   "alpha": -0.008267552521280863,
    "max_dd": -0.04297548271290608,
    "curve": [
     {
@@ -1510,6 +1534,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 96.6402
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 96.9675
     }
    ],
    "bench_curve": [
@@ -1592,6 +1620,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 97.6998
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 97.7943
     }
    ],
    "positions": [
@@ -1599,10 +1631,10 @@
      "symbol": "GOOGL",
      "qty": 100.699603930945,
      "fill_price": 342.603135,
-     "mark": 319.78,
-     "value": 32201.71934503759,
-     "weight": 0.33321263330221335,
-     "pl": -0.06661683057862278,
+     "mark": 319.5,
+     "value": 32173.523455936927,
+     "weight": 0.33179682479939265,
+     "pl": -0.0674341027264681,
      "thesis": "P1: Leadership over laggard catch-up. Google Cloud Q2 2026 revenue surged 82% YoY to $24.8B (operating margin 35.6%), driven by enterprise AI infrastructure/Gemini adoption across 90% of Fortune 100, with cloud backlog reaching $514B. Alphabet raised FY2026 capex guidance to $195B-$205B. GOOGL price at 342.09 offers attractive entry after pull-back on capex concerns.",
      "review_by": "2026-08-06"
     },
@@ -1610,10 +1642,10 @@
      "symbol": "NVDA",
      "qty": 164.9249,
      "fill_price": 212.2179,
-     "mark": 208.68,
-     "value": 34416.528132,
-     "weight": 0.35613073466993905,
-     "pl": -0.016671072515560548,
+     "mark": 210.14,
+     "value": 34657.318486,
+     "weight": 0.3574115295598489,
+     "pl": -0.009791351247939062,
      "thesis": "P1: leadership over laggard catch-up. NVDA holds ~75-81% of AI accelerator revenue in 2026 (commandlinux.com, siliconanalysts.com); data-center revenue $75.2B in fiscal Q1 FY2027, +92% YoY, full FY2026 data-center revenue $193.7B. Share has cooled from an ~87% peak in 2024 but remains the dominant leader by a wide margin over AMD (~5-7% share) and Intel. Priced at 211.90, -10.4% off the 52w high of 236.54 \u2014 entry below the peak while leadership-by-revenue is intact.",
      "review_by": "2026-08-05"
     },
@@ -1621,10 +1653,10 @@
      "symbol": "TSM",
      "qty": 58.8712,
      "fill_price": 424.656,
-     "mark": 415.94,
-     "value": 24486.886928,
-     "weight": 0.25338212494885964,
-     "pl": -0.020524848347839186,
+     "mark": 417.89,
+     "value": 24601.685768,
+     "weight": 0.2537105155334967,
+     "pl": -0.015932896273689767,
      "thesis": "P1: the single highest-conviction chokepoint in the AI buildout. TSMC controls >90% of the advanced-node (leading-edge) foundry market (247wallst.com, averroes.ai); N2 node capacity sold out through Q2 2027; demand at leading nodes projected to exceed capacity by 25-30% in 2026, not easing until 2027 (thetechmarketer.com). Every major AI chip designer (NVDA, AMD, AVGO, Apple) depends on this capacity with no near-term alternative. Priced at 424.02, -11.5% off the 52w high of 479.",
      "review_by": "2026-08-05"
     }
@@ -1839,7 +1871,7 @@
    "cash": 100000.0,
    "cash_pct": 1.0,
    "ret": 0.0,
-   "alpha": 0.014361999999999986,
+   "alpha": 0.014546999999999977,
    "max_dd": 0.0,
    "curve": [
     {
@@ -1920,6 +1952,10 @@
     },
     {
      "date": "Jul 23 16:04",
+     "v": 100.0
+    },
+    {
+     "date": "Jul 23 17:04",
      "v": 100.0
     }
    ],
@@ -2003,6 +2039,10 @@
     {
      "date": "Jul 23 16:04",
      "v": 98.5638
+    },
+    {
+     "date": "Jul 23 17:04",
+     "v": 98.5453
     }
    ],
    "positions": [],
@@ -2189,7 +2229,7 @@
   }
  ],
  "system": {
-  "last_tick": "Jul 23 16:04",
+  "last_tick": "Jul 23 17:04",
   "symbols_tracked": 60,
   "total_cost_usd": 4.6554,
   "runs": [
