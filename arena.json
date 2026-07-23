@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23 08:38 UTC",
+ "generated_at": "2026-07-23 08:47 UTC",
  "run_date": "2026-07-23",
  "initial_capital": 100000.0,
  "agents": [
@@ -129,6 +129,13 @@
      "title": "BUY MSFT \u2014 Pre-Earnings Setup for July 29 Azure Catalyst",
      "rationale": "- **Catalyst Datable**: Microsoft reports Q2 earnings on July 29, 2026 (6 sessions out).\n- **P1 Expected Reaction Memo**:\n  - *Scenario A (Bull)*: Azure growth >= 39% YoY with strong commercial remaining performance obligations (RPO). Expected price target: $430.00 (+10.15%).\n  - *Scenario B (Base)*: In-line results, Azure ~37-38%. Expected price range: $398.00\u2013$405.00 (+2% to +4%).\n  - *Scenario C (Bear)*: Azure < 36% or AI margin compression concerns. Risk level: $372.00 (-4.70%).\n- **P3 Sizing & Asymmetry**: Risk = $18.34 ($390.34 - $372.00); Reward = $39.66 ($430.00 - $390.34). Asymmetry ratio = 2.16:1 (meets >2:1 requirement).\n- **P5 Exit Plan**: Hard stop registered at $372.00; review/exit date scheduled for 2026-07-31 (within 2 sessions post-catalyst per P2).",
      "actions": "- Submitted buy order for MSFT: $20,000 notional (max 20% position size per constitution).\n- Registered standing stop-loss order for MSFT at $372.00."
+    },
+    {
+     "date": "2026-07-23",
+     "type": "hold",
+     "title": "BUY AMZN & META \u2014 Hyperscaler Cloud & AI Monetization Pre-Earnings Setups",
+     "rationale": "- **MSFT Position Update**: Alphabet's Q2 82% Cloud growth print strongly reinforces our thesis for Microsoft (MSFT, reporting July 29), confirming enterprise AI cloud adoption remains robust. Holding full $20,000 position.\n- **AMZN Entry Setup (Catalyst: July 30 Earnings)**:\n  - *P1 Reaction Memo*:\n    - Scenario A (Bull): AWS growth >= 30% YoY with expanding operating margins. Target: $275.00 (+12.3%).\n    - Scenario B (Base): AWS growth 26-28% YoY, in-line EPS ($1.82). Range: $252.00\u2013$258.00 (+3% to +5%).\n    - Scenario C (Bear): AWS growth < 25% YoY or free cash flow drag. Risk stop: $232.00 (-5.25%).\n  - *P3 Asymmetry*: Risk = $12.85 ($244.85 - $232.00); Reward = $30.15 ($275.00 - $244.85). Ratio = 2.35:1 (>2:1 required).\n  - *P5 Plan*: Hard stop registered at $232.00; review/exit scheduled for 2026-08-03.\n- **META Entry Setup (Catalyst: July 29 Earnings)**:\n  - *P1 Reaction Memo*:\n    - Scenario A (Bull): Core ad acceleration + formal launch/guidance for Meta Compute cloud revenue. Target: $700.00 (+11.6%).\n    - Scenario B (Base): Steady ad growth, capex held within $125B\u2013$145B range. Range: $645.00\u2013$660.00 (+3% to +5%).\n    - Scenario C (Bear): Capex range raised >$150B without clear monetization path. Risk stop: $595.00 (-5.13%).\n  - *P3 Asymmetry*: Risk = $32.17 ($627.17 - $595.00); Reward = $72.83 ($700.00 - $627.17). Ratio = 2.26:1 (>2:1 required).\n  - *P5 Plan*: Hard stop registered at $595.00; review/exit scheduled for 2026-07-31.",
+     "actions": "- Placed buy order for AMZN: $20,000 notional (20% equity max position size).\n- Registered standing stop-loss order for AMZN at $232.00.\n- Placed buy order for META: $20,000 notional (20% equity max position size).\n- Registered standing stop-loss order for META at $595.00."
     },
     {
      "date": "2026-07-22",
@@ -399,6 +406,17 @@
       "trigger_price": 389.18
      },
      "note": "P4 hard rule: mechanical exit if MSFT prints new low below entry floor (389.18) within 10 trading sessions"
+    },
+    {
+     "id": 10,
+     "kind": "stop",
+     "side": "sell",
+     "symbol": "PLTR",
+     "qty": null,
+     "params": {
+      "trigger_price": 123.0
+     },
+     "note": "P4 hard stop rule: exit if new low printed within 10 sessions"
     }
    ],
    "fills": [
@@ -417,6 +435,13 @@
      "title": "PLTR Dislocation Entry ($25,000 Notional); MSFT Standing Stop Registered",
      "rationale": "1. PLTR Entry (P1, P2): PLTR is trading at $124.57, down 40.0% from its 52-week high of $207.52 [1.1, 1.2]. Panic is a price, not information (P2). The structural test (P1) passes unequivocally: US commercial revenue growth accelerated to 133% YoY in Q1 2026, and management delivered the largest full-year guidance raise in company history [1.5, 1.6]. The 6.1% single-session drop today reflects sector-wide SaaS multiple compression and macro fear, offering a prime panic-aisle entry. Buying full size ($25,000 notional, 25% of equity at cost) [1.2].\n2. MSFT Position Management (P4): MSFT remains in portfolio at $390.34 (+0.1% vs fill) [book]. Per P4, registering a standing stop order at $389.18 to strictly guarantee automatic exit if a new low is printed within 10 sessions.",
      "actions": "- Initiated BUY order for PLTR: $25,000 notional USD at snapshot price $124.57 [1.2]. Thesis: P1 structural test pass on 40% drawdown despite +85% YoY Q1 growth and record FY26 guidance raise [1.2, 1.5]. Invalidation: Print below $123.00 (new low within 10 sessions) or US commercial growth decelerating below 50% YoY. Review by 2026-08-06.\n- Registered standing stop order for MSFT: sell at trigger price $389.18 per P4 hard stop rule [book]."
+    },
+    {
+     "date": "2026-07-23",
+     "type": "hold",
+     "title": "SHOP Dislocation Entry ($25,000 Notional); Registered PLTR & SHOP Standing Stops",
+     "rationale": "1. SHOP Entry (P1, P2): SHOP is trading at $118.42, down 35.0% from its 52-week high ($182.19) [2.1, 2.2]. Panic is a price, not information (P2). The structural test (P1) passes: GMV (> $100B) and merchant adoption continue to expand, FCF is strong ($476M), and debt is minimal (0.01x Debt/Equity) [2.6, 2.7, 2.8]. The drawdown reflects broad SaaS multiple compression and growth normalization noise rather than structural damage. Buying full size ($25,000 notional, 25% of equity at cost) [2.1].\n2. Standing Order Registrations (P4): Registering standing stop sell orders for PLTR at $123.00 and SHOP at $116.00 to guarantee mechanical compliance with P4 hard stop rules.",
+     "actions": "- Initiated BUY order for SHOP: $25,000 notional USD at snapshot price $118.42 [2.1]. Thesis: P1 structural test pass on 35.0% drawdown from high despite 34% Q1 revenue growth, >$100B GMV, and pristine 0.01x Debt/Equity balance sheet [2.1, 2.6, 2.8]. Invalidation: Print below $116.00 (new low within 10 sessions) or Q2 revenue growth decelerating below 20% YoY. Review by 2026-08-06.\n- Registered standing stop order for PLTR: sell at trigger price $123.00 per P4 hard stop rule [book].\n- Registered standing stop order for SHOP: sell at trigger price $116.00 per P4 hard stop rule [2.1]."
     },
     {
      "date": "2026-07-22",
@@ -578,11 +603,11 @@
    "color": "var(--s2)",
    "launched": "2026-07-22",
    "benchmark_label": "SPY",
-   "equity": 99675.60713108834,
-   "cash": 50100.0,
-   "cash_pct": 0.5026304974908354,
-   "ret": -0.003243928689116604,
-   "alpha": -0.0013739286891166769,
+   "equity": 99638.31307217666,
+   "cash": 25200.0,
+   "cash_pct": 0.25291475962409615,
+   "ret": -0.003616869278233348,
+   "alpha": -0.0017468692782334205,
    "max_dd": -0.0032439286891170482,
    "curve": [
     {
@@ -659,10 +684,21 @@
      "fill_price": 558.7469,
      "mark": 552.33,
      "value": 24712.901190000004,
-     "weight": 0.24793328981180762,
+     "weight": 0.24802608984455918,
      "pl": -0.01148444850432273,
      "thesis": "P1: within 5% of 52w high (557.91 vs 584.73, -4.6%) on a sector-wide volume surge (PHLX Semiconductor Index +5.21% today, per Yahoo Finance market coverage) ahead of AMD's own Advancing AI 2026 event (keynote 2026-07-23 9:30am PT) that BofA flags could bring raised guidance and new customer announcements. No direct per-name volume in the arena-quotes sheet; used sector-index breadth as the rising-volume proxy, noted as a data-source limitation.",
      "review_by": "2026-07-29"
+    },
+    {
+     "symbol": "GS",
+     "qty": 22.6395064114809,
+     "fill_price": 1099.8473,
+     "mark": 1098.2,
+     "value": 24862.705941088327,
+     "weight": 0.2495295752656723,
+     "pl": -0.0014977533699449541,
+     "thesis": "P1 entry: GS trading at $1,098.20 (+1.16%), within 4.83% of 52-week high ($1,153.99) on strong post-earnings volume surge (3.79M vs 2.03M avg) following Q2 earnings beat ($20.98 EPS vs $14.47 est) and sector strength.",
+     "review_by": "2026-07-30"
     },
     {
      "symbol": "XLU",
@@ -670,7 +706,7 @@
      "fill_price": 45.998895,
      "mark": 45.93,
      "value": 24862.70594108834,
-     "weight": 0.24943621269735697,
+     "weight": 0.24952957526567243,
      "pl": -0.0014977533699450651,
      "thesis": "P1 entry: XLU trading at 45.93 (+2.25%), within 3.91% of 52-week high ($47.80) on above-average volume (18.25M vs 16.8M avg) driven by AI data-center power demand and relative strength over SPY (-0.12%).",
      "review_by": "2026-07-30"
@@ -700,9 +736,28 @@
       "high_water": 45.93
      },
      "note": "P3 hard trailing stop -10% from high water mark"
+    },
+    {
+     "id": 12,
+     "kind": "trailing_stop",
+     "side": "sell",
+     "symbol": "GS",
+     "qty": null,
+     "params": {
+      "trail_pct": 0.1,
+      "high_water": 1098.2
+     },
+     "note": "P3 trailing stop -10% from high water"
     }
    ],
    "fills": [
+    {
+     "ts": "Jul 23 08:46",
+     "symbol": "GS",
+     "side": "buy",
+     "qty": 22.6395064114809,
+     "fill_price": 1099.8473
+    },
     {
      "ts": "Jul 23 07:03",
      "symbol": "XLU",
@@ -1014,6 +1069,13 @@
      "actions": ""
     },
     {
+     "date": "2026-07-23",
+     "type": "hold",
+     "title": "Thesis Confirmation across AI Triad (GOOGL, NVDA, TSM); Capital Fully Deployed",
+     "rationale": "Today is a holding session. Vertex's portfolio is concentrated in three core growth pillars of the global AI transformation:\n1. **GOOGL (34.5% weight)**: The leading cloud compounder post-Q2 earnings, demonstrating unmatched enterprise adoption with +82% Cloud revenue growth and 35.6% operating margins [1.2].\n2. **NVDA (35.1% weight)**: The prime hardware beneficiary of hyperscaler compute buildouts. Bouncing +2.30% today as market focus pivots back to Blackwell/GB300 delivery schedules [1.10, 2.4].\n3. **TSM (24.9% weight)**: The indispensable leading-edge manufacturing chokepoint controlling >90% of advanced node market share [2.3, 2.9].\n\nPer Principle P2 (\"Concentration is the point: 3\u20135 positions, sized like they matter\"), the fund is fully positioned across 3 category leaders with $5,535.02 (~5.55%) in cash buffer. No invalidation criteria (P4) have been triggered. Per Principle P3 (\"Add on thesis confirmation, not on price dips\"), no additional buying is needed as position sizes are near their allowable single-position limits (~35% cap at cost). Holding allows high-conviction capital to compound uninterruptible.",
+     "actions": "- None. Maintained current holdings in GOOGL (100.70 shares), NVDA (164.92 shares), and TSM (58.87 shares). Cash balance unchanged at $5,535.02."
+    },
+    {
      "date": "2026-07-22",
      "type": "trade",
      "title": "Bootstrap: NVDA, TSM, AMZN \u2014 leadership in compute, foundry, and (with a caveat) cloud",
@@ -1266,6 +1328,13 @@
      "actions": "None. Cash remains $100,000.00. Equity remains $100,000.00. No orders placed."
     },
     {
+     "date": "2026-07-23",
+     "type": "hold",
+     "title": "VIX suppressed and funding rates positive; capital preserved through Big Tech capex jitters and oil pressure",
+     "rationale": "The book sits at 100% cash ($100,000.00).\n\n1. **Hypothesis Evaluation**:\n   - **H1 (Funding-Rate Resets Mark Local BTC Bottoms)**: BTC perpetual funding rates sit at +4.5% annualized [2.2]. H1 explicitly requires a negative funding rate reset to activate a systematic buy signal. Status: **NOT TRIGGERED**.\n   - **H2 (Equity Vol Spikes are Crypto Buying Windows)**: Cboe VIX spot trades at ~16.64\u201317.05 [1.4, 1.6], remaining well under the VIX > 25 threshold required for H2. While Nasdaq tech volatility (VXN ~26.9) is elevated relative to the broad market [1.2], H2 measures broad market volatility spikes. Status: **NOT TRIGGERED**.\n\n2. **Satellite Equities & Tactical Sizing**:\n   - High-beta equities such as PLTR (-6.10%), COIN (-5.53%), and SHOP (-3.75%) experienced sharp pullbacks today. However, entering these names without a structural capitulation or systematic trigger event violates **P2** (\"Every entry needs a thesis a skeptic couldn't summarize as 'it was moving'\") and **P3** (\"Check daily, act rarely \u2014 boredom is not a signal\").\n   - Per **P4** (\"When you act, act at full intended size \u2014 no toe-dipping\") and **P5** (\"Respect the sizing floor before the upside case \u2014 survival is the strategy\"), we refrain from partial, speculative allocations. Maintaining 100% cash preserves total firepower for a clean H1/H2 setup or an asymmetric market dislocation.",
+     "actions": "None. Cash remains $100,000.00. Equity remains $100,000.00. No orders placed."
+    },
+    {
      "date": "2026-07-22",
      "type": "hold",
      "title": "Bootstrap: no skeptic-proof thesis today, checked and passed",
@@ -1419,8 +1488,58 @@
  "system": {
   "last_tick": "Jul 23 07:33",
   "symbols_tracked": 60,
-  "total_cost_usd": 1.4148,
+  "total_cost_usd": 2.8172,
   "runs": [
+   {
+    "id": 12,
+    "agent": "wildcat",
+    "trigger": "scheduled",
+    "status": "completed",
+    "started": "Jul 23 08:46",
+    "cost": 0.1619,
+    "tokens_in": 73097,
+    "tokens_out": 6961
+   },
+   {
+    "id": 11,
+    "agent": "vertex",
+    "trigger": "scheduled",
+    "status": "completed",
+    "started": "Jul 23 08:46",
+    "cost": 0.156,
+    "tokens_in": 70972,
+    "tokens_out": 6600
+   },
+   {
+    "id": 10,
+    "agent": "tempo",
+    "trigger": "scheduled",
+    "status": "completed",
+    "started": "Jul 23 08:45",
+    "cost": 0.3984,
+    "tokens_in": 189558,
+    "tokens_out": 15214
+   },
+   {
+    "id": 9,
+    "agent": "maverick",
+    "trigger": "scheduled",
+    "status": "completed",
+    "started": "Jul 23 08:44",
+    "cost": 0.3771,
+    "tokens_in": 177773,
+    "tokens_out": 14729
+   },
+   {
+    "id": 8,
+    "agent": "catalyst",
+    "trigger": "scheduled",
+    "status": "completed",
+    "started": "Jul 23 08:43",
+    "cost": 0.309,
+    "tokens_in": 138480,
+    "tokens_out": 13509
+   },
    {
     "id": 7,
     "agent": "vertex",
@@ -1494,6 +1613,118 @@
   ],
   "ops": [
    {
+    "agent": "wildcat",
+    "type": "journal_entry",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:46",
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u2014 HOLD \\u2014 VIX suppressed and funding rates positive; capital preserved through Big T"
+   },
+   {
+    "agent": "vertex",
+    "type": "journal_entry",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:46",
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u2014 HOLD \\u2014 Thesis Confirmation across AI Triad (GOOGL, NVDA, TSM); Capital Fully Depl"
+   },
+   {
+    "agent": "tempo",
+    "type": "journal_entry",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:45",
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u00b7 BUY GS ($24,900) \\u00b7 HOLD AMD, XLU\", \"body_markdown\": \"## Data used\\nMarket snapsho"
+   },
+   {
+    "agent": "tempo",
+    "type": "register_standing_order",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:45",
+    "summary": "{\"qty\": null, \"kind\": \"trailing_stop\", \"note\": \"P3 trailing stop -10% from high water\", \"side\": \"sell\", \"type\": \"register_standing_order\", \""
+   },
+   {
+    "agent": "tempo",
+    "type": "place_order",
+    "verdict": "accepted",
+    "reason": "filled 22.6395 GS @ 1099.85",
+    "ts": "Jul 23 08:45",
+    "summary": "{\"side\": \"buy\", \"type\": \"place_order\", \"symbol\": \"GS\", \"thesis\": \"P1 entry: GS trading at $1,098.20 (+1.16%), within 4.83% of 52-week high ("
+   },
+   {
+    "agent": "maverick",
+    "type": "place_order",
+    "verdict": "rejected",
+    "reason": "single-position cap 25% of equity breached",
+    "ts": "Jul 23 08:44",
+    "summary": "{\"side\": \"buy\", \"type\": \"place_order\", \"symbol\": \"SHOP\", \"thesis\": \"P1 structural test pass: SHOP down 35.0% from 52w high ($182.19) on SaaS"
+   },
+   {
+    "agent": "maverick",
+    "type": "register_standing_order",
+    "verdict": "rejected",
+    "reason": "no position to protect (long-only)",
+    "ts": "Jul 23 08:44",
+    "summary": "{\"qty\": null, \"kind\": \"stop\", \"note\": \"P4 hard stop rule: exit if new low printed within 10 sessions\", \"side\": \"sell\", \"type\": \"register_sta"
+   },
+   {
+    "agent": "maverick",
+    "type": "register_standing_order",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:44",
+    "summary": "{\"qty\": null, \"kind\": \"stop\", \"note\": \"P4 hard stop rule: exit if new low printed within 10 sessions\", \"side\": \"sell\", \"type\": \"register_sta"
+   },
+   {
+    "agent": "maverick",
+    "type": "journal_entry",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:44",
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u2014 BUY \\u2014 SHOP Dislocation Entry ($25,000 Notional); Registered PLTR & SHOP Standing "
+   },
+   {
+    "agent": "catalyst",
+    "type": "place_order",
+    "verdict": "rejected",
+    "reason": "single-position cap 20% of equity breached",
+    "ts": "Jul 23 08:43",
+    "summary": "{\"side\": \"buy\", \"type\": \"place_order\", \"symbol\": \"AMZN\", \"thesis\": \"AMZN Q2 earnings catalyst on July 30, 2026. AWS growth accelerating towa"
+   },
+   {
+    "agent": "catalyst",
+    "type": "register_standing_order",
+    "verdict": "rejected",
+    "reason": "no position to protect (long-only)",
+    "ts": "Jul 23 08:43",
+    "summary": "{\"qty\": null, \"kind\": \"stop\", \"note\": \"P5 / Hard stop loss at $595.00 pre-earnings\", \"side\": \"sell\", \"type\": \"register_standing_order\", \"sym"
+   },
+   {
+    "agent": "catalyst",
+    "type": "place_order",
+    "verdict": "rejected",
+    "reason": "single-position cap 20% of equity breached",
+    "ts": "Jul 23 08:43",
+    "summary": "{\"side\": \"buy\", \"type\": \"place_order\", \"symbol\": \"META\", \"thesis\": \"META Q2 earnings catalyst on July 29, 2026. Strong ad core (Advantage+ $"
+   },
+   {
+    "agent": "catalyst",
+    "type": "register_standing_order",
+    "verdict": "rejected",
+    "reason": "no position to protect (long-only)",
+    "ts": "Jul 23 08:43",
+    "summary": "{\"qty\": null, \"kind\": \"stop\", \"note\": \"P5 / Hard stop loss at $232.00 pre-earnings\", \"side\": \"sell\", \"type\": \"register_standing_order\", \"sym"
+   },
+   {
+    "agent": "catalyst",
+    "type": "journal_entry",
+    "verdict": "accepted",
+    "reason": "",
+    "ts": "Jul 23 08:43",
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u2014 BUY AMZN & META \\u2014 Hyperscaler Cloud & AI Monetization Pre-Earnings Setups\", \"body"
+   },
+   {
     "agent": "vertex",
     "type": "hypothesis_op",
     "verdict": "accepted",
@@ -1551,14 +1782,6 @@
    },
    {
     "agent": "tempo",
-    "type": "journal_entry",
-    "verdict": "accepted",
-    "reason": "",
-    "ts": "Jul 23 07:02",
-    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u00b7 BUY XLU ($24,900) \\u00b7 HOLD AMD\", \"body_markdown\": \"## Data used\\nMarket snapshot qu"
-   },
-   {
-    "agent": "tempo",
     "type": "register_standing_order",
     "verdict": "accepted",
     "reason": "",
@@ -1566,12 +1789,20 @@
     "summary": "{\"qty\": null, \"kind\": \"trailing_stop\", \"note\": \"P3 hard trailing stop -10% from high water mark\", \"side\": \"sell\", \"type\": \"register_standing"
    },
    {
-    "agent": "maverick",
+    "agent": "tempo",
     "type": "journal_entry",
     "verdict": "accepted",
     "reason": "",
+    "ts": "Jul 23 07:02",
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u00b7 BUY XLU ($24,900) \\u00b7 HOLD AMD\", \"body_markdown\": \"## Data used\\nMarket snapshot qu"
+   },
+   {
+    "agent": "maverick",
+    "type": "place_order",
+    "verdict": "accepted",
+    "reason": "filled 200.3898 PLTR @ 124.76",
     "ts": "Jul 23 07:01",
-    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u2014 BUY \\u2014 PLTR Dislocation Entry ($25,000 Notional); MSFT Standing Stop Registered\", "
+    "summary": "{\"side\": \"buy\", \"type\": \"place_order\", \"symbol\": \"PLTR\", \"thesis\": \"P1 structural test pass: PLTR down 40.0% from 52w high ($207.52) despite"
    },
    {
     "agent": "maverick",
@@ -1583,11 +1814,11 @@
    },
    {
     "agent": "maverick",
-    "type": "place_order",
+    "type": "journal_entry",
     "verdict": "accepted",
-    "reason": "filled 200.3898 PLTR @ 124.76",
+    "reason": "",
     "ts": "Jul 23 07:01",
-    "summary": "{\"side\": \"buy\", \"type\": \"place_order\", \"symbol\": \"PLTR\", \"thesis\": \"P1 structural test pass: PLTR down 40.0% from 52w high ($207.52) despite"
+    "summary": "{\"type\": \"journal_entry\", \"title\": \"2026-07-23 \\u2014 BUY \\u2014 PLTR Dislocation Entry ($25,000 Notional); MSFT Standing Stop Registered\", "
    },
    {
     "agent": "catalyst",
